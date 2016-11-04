@@ -1,0 +1,129 @@
+.clearfix{
+  &:after{
+    display: block;
+    content: '';
+    clear: both;
+  }
+}
+.sellsystem{
+  padding-bottom: 70px;
+}
+.sellsystem__left__item-left{
+  display: inline-block;
+  vertical-align: top;
+  a{
+    display: block;
+    background-color: #f8f8f8;
+    border-radius: 45px;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    &:hover{
+      background-color: $color;
+      transition: 1s;
+    }
+    img{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      margin: auto;
+    }
+  }
+}
+.sellsystem__left__item-right{
+  display: inline-block;
+  vertical-align: top;
+  p{
+    color: $color-text;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+    padding: 11px 34px;
+  }
+}
+.sellsystem__left__item{
+  height: 70px;
+  width: 48%;
+  margin-left: 18px;
+  margin-top: 43px;
+  display: inline-block;
+  vertical-align: top;
+}
+@media only screen and (max-width : 1022px){
+  .sellsystem{
+    text-align: center;
+  }
+  .border-band{
+    display: none;
+  }
+  .sellsystem__left__item{
+    width: 100%;
+  }
+}
+@media only screen and (max-width : 500px){
+  .sellsystem__left__item{
+    width: 46%;
+    margin-top: 186px;
+  }
+  .sellsystem__left__item_mod{
+    margin-top: 15px;
+  }
+  .sellsystem__left__item-right{
+    p{
+      font-size: 17px;
+      padding: 5px 0;
+    }
+  }
+  .sellsystem__left__item-left{
+    a{
+      border-radius: 90px;
+      width: 152px;
+      height: 152px;
+    }
+  }
+  .sellsystem{
+    h2 {
+      font-size: 24px;
+    }
+  }
+}
+
+
+
+
+.realise__content__item{
+  display: inline-block;
+  vertical-align: top;
+  width: 49%;
+  margin-top: 90px;
+}
+.realise__content__item__left{
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border: 2px solid #e6e6e6;
+  border-radius: 45px;
+  position: relative;
+  vertical-align: top;
+  img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+  }
+}
+.realise__content__item__right{
+  display: inline-block;
+  vertical-align: top;
+  p{
+    color: $color-text;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    padding-left: 30px;
+  }
+}
