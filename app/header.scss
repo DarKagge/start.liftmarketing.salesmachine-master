@@ -7,7 +7,9 @@ header{
   background-image: url("img/header-bg.png");
   background-repeat: no-repeat;
   background-position: left 218px;
-
+  &.footer{
+    background-color: #191919;
+  }
 }
 .pixel-pf{
   position: absolute;
@@ -44,6 +46,20 @@ header{
     text-align: center;
   }
 }
+
+.footer{
+  padding: 35px 0 ;
+  .top-menu{
+    padding: 0;
+    li a{
+      color: #fff;
+    }
+  }
+  .logo img{
+    padding: 0;
+  }
+}
+
 .fix .md-null-pix{
   padding-left: 0;
 }
@@ -118,6 +134,52 @@ header{
     }
   }
 }
+
+
+.in-landing{
+  background-position: left top;
+  background-image: url(img/footer-bg.png);
+  .twoGuys{
+    background-position: right bottom;
+    padding-top: 79px;
+    padding-bottom: 47px;
+    @media(max-width: 901px){
+      padding-bottom: 82px;
+    }
+  }
+  .head-info{
+    h1{
+      font-size: 77px;
+      max-width: 525px;
+      letter-spacing: 24.5px;
+      line-height: 49px;
+      margin-left: 11px;
+      b{
+        font-size: 30px;
+      }
+      @media(max-width: 901px){
+        max-width: unset;
+      }
+      @media(max-width: 561px){
+        font-size: 12vw;
+        letter-spacing: 3vw;
+        b{
+          font-size: 5vw;
+        }
+      }
+    }
+  }
+  .head-inf{
+    .border-band{
+      margin-top: 37px;
+    }
+    p{
+      padding-top: 10px;
+    }
+  }
+}
+
+
 .head-info{
   p{
     padding-top: 37px;
