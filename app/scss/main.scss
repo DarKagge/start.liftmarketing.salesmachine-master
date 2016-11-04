@@ -1,0 +1,93 @@
+@import "bourbon";
+@import "vars";
+@import "libs";
+
+//Custom styles here
+.client-center{
+  max-width: 970px;
+  margin: auto;
+}
+.client-message-bg1{
+  background-image: url("../img/review.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+.border-band-client{
+  background-color: #6c6966;
+  margin: 110px 0 0 13px;
+
+}
+.text-inf-client{
+  h2{
+    color: #e42a1f;
+    font-size: 24px;
+    padding: 96px 14px 0;
+
+  }
+
+}
+.client-center{
+  p{
+    color: #ffffff;
+    padding-top: 5px;
+    line-height: 22px;
+  }
+}
+.client-nick{
+  img{
+    vertical-align: top;
+    display: inline-block;
+  }
+}
+.cl-name{
+  display: inline-block;
+  h3{
+    margin: 0;
+    padding-top: 25px;
+    font-size: 24px;
+    color: #fff;
+    padding-left: 10px;
+    letter-spacing: -0.3px;
+  }
+  p{
+    margin: 0;
+    padding-top: 0px;
+    padding-left: 9px;
+    color: #a09c9a;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+    padding-bottom: 97px;
+  }
+}
+.can-sell{
+  background-color: #f8f8f8;
+}
+.border-band-s{
+  margin: 152px 14px 0 0;
+}
+.text-inf-s{
+  h2{
+    padding-top: 138px;
+    padding-right: 36px;
+    line-height: 30px;
+  }
+}
+.scope{
+  margin-left: 96px;
+  padding-top: 24px;
+}
+.scope-free{
+  p{
+    display: inline-block;
+    padding-top: 5px;
+  }
+}
+.red-line{
+  width: 15px;
+  height: 3px;
+  background-color: #e42a1f;
+  display: inline-block;
+  margin-right: 24px;
+  margin-bottom: 5px;
+}
+@import "media";
