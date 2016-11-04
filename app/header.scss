@@ -96,7 +96,12 @@ header{
         font-size: 2vw;
       }
     }
-
+    @media(max-width: 633px){
+      line-height: 20px;
+      b{
+        font-size: 3vw;
+      }
+    }
   }
   h2{
     text-align: left;
@@ -118,6 +123,12 @@ header{
     padding-top: 37px;
     padding-left: 14px;
     line-height: 23px;
+    @media(max-width: 734px){
+      padding-left: 0;
+      br{
+        display: none;
+      }
+    }
   }
   b{
     color: $color;
