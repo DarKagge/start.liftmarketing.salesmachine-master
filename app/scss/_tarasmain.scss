@@ -59,13 +59,14 @@
     display: none;
   }
   .sellsystem__left__item{
-    width: 97%;
+    width: 95%;
   }
 }
 @media only screen and (max-width : 500px){
   .sellsystem__left__item{
     width: 46%;
-    margin-top: 186px;
+    height: auto;
+    margin-top: 43px;
   }
   .sellsystem__left__item_mod{
     margin-top: 15px;
@@ -85,9 +86,6 @@
   }
   .sellsystem{
     padding-bottom: 160px;
-    h2 {
-      font-size: 24px;
-    }
   }
 }
 
@@ -109,6 +107,10 @@
       color: #292727;
       padding: 0px 20px;
     }
+  }
+  button{
+    margin-left: 90px;
+    margin-top: 30px;
   }
 }
 .realise__content__item__left{
@@ -165,14 +167,6 @@
     margin-left: 0px;
   }
 }
-@media only screen and (max-width : 500px){
-  .core{
-    h2 {
-      font-size: 24px;
-    }
-  }
-}
-
 
 
 
@@ -194,19 +188,13 @@
     text-align: center;
   }
 }
-@media only screen and (max-width : 500px){
-  .practicum{
-    h2 {
-      font-size: 24px;
-    }
-  }
-}
+
 
 
 
 
 .lasty{
-  padding-bottom: 90px;
+  padding-bottom: 35px;
   h2{
     color: #292727;
   }
@@ -237,7 +225,7 @@
   }
 }
 @media only screen and (max-width : 500px){
-  .lasty{
+  .text-inf{
     h2 {
       font-size: 24px;
     }
@@ -246,8 +234,12 @@
 
 
 
-
-
+.partners__content{
+  img{
+    width: 100%;
+    margin-top: 100px;
+  }
+}
 
 
 
