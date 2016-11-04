@@ -6,7 +6,7 @@
 header{
   background-image: url("../img/header-bg.png");
   background-repeat: no-repeat;
-  background-position: bottom left;
+  background-position: left 218px;
 
 }
 .pixel-pf{
@@ -25,15 +25,16 @@ header{
   li{
     list-style: none;
     display: inline-block;
+    margin-right: 3px;
     a{
       color: $color-text;
-      padding: 4px 8px 4px;
+      padding: 4px 8px 1px;
       display: block;
       &.with-popup{
         border: 2px solid $color;
-        transform: skewX(-19deg);
+        transform: skewX(-15deg);
         span{
-          transform: skewX(25deg);
+          transform: skewX(15deg);
           display: block;
         }
       }
@@ -51,11 +52,15 @@ header{
     padding-top: 48px;
   }
 }
+.twoGuys{
+    background: url(../img/2guys.png) no-repeat right 284px;
+}
 .head-info{
-  text-align: center;
   max-width: 970px;
   margin: auto;
+
   h1{
+    text-align: center;
     font-size: 140px;
     color: $color;
     text-transform: uppercase;
@@ -71,6 +76,14 @@ header{
       font-weight: 900;
 
     }
+    @media(max-width: 1083px){
+      font-size:  12vw;
+      letter-spacing: 4vw;
+      b{
+        font-size: 2vw;
+      }
+    }
+
   }
   h2{
     text-align: left;
@@ -81,7 +94,6 @@ header{
   }
 }
 .head-info{
-  text-align: center;
   p{
     padding-top: 37px;
     padding-left: 14px;
@@ -91,6 +103,8 @@ header{
     color: $color;
   }
 }
+
+
 .text-inf{
   display: inline-block;
   h2{
@@ -107,44 +121,55 @@ header{
   margin: 65px 0 0 14px;
   vertical-align: top;
 }
-.head-buttons{
+.head-form{
+  margin-left: 17px;
+  margin-top: 55px;
+  margin-bottom: 20px;
   display: inline-block;
-  ul{
-    list-style: none;
-    padding-top: 34px;
-    padding-left: 17px;
-  }
-  li{
+  .moonray-form-element-wrapper-alignment-left{
     display: inline-block;
-    padding-right: 7px;
-  }
-  a{
     text-align: center;
     color: $color-text;
-    padding: 10px 62px;
-    display: block;
     border: 2px solid #dadada;
-    transform: skewX(-19deg);
+    transform: skewX(-17deg);
+    background: #fff;
+    margin-right: 3px;
     &:hover{
       text-decoration: none;
     }
-      span{
-        transform: skewX(25deg);
-        display: block;
+    input{
+      background: none;
+      border: 0;
+      text-align: center;
+      transform: skew(17deg);
+      padding: 9px 8px;
+      outline: 0;
+      @include placeholder {
+        color: $color-text;
       }
     }
-  .read-but{
-    padding: 10px 41px;
+  }
+  .moonray-form-input-type-submit{
+    display: inline-block;
+  }
+  .moonray-form-input-type-submit button{
     color: #ffffff;
     background-color: #e42a1f;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid $color;
+    transform: skewX(-17deg);
+    padding: 9px 36px;
+    margin-left: 2px;
+    span{
+      transform: skewX(17deg);
+      display: block;
+    }
   }
 }
 .head-inf{
   text-align: left;
 
-}
-.head-buttons .head-buttons-t{
-  padding: 10px 40px;
 }
 .head-more-info{
   text-align: left;
