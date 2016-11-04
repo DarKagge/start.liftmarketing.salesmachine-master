@@ -324,5 +324,34 @@
 .pad-row{
   margin-top: 40px;
 }
+.foto-man{
+  text-align: center;
+}
+.partners{
+  font-size: 18px;
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  li{
+    padding-bottom: 15px;
+  }
+}
+.number{
+  float: left;
+  padding-bottom:15px;
+  margin-right: 15px;
+  color: $color;
+}
+.type-4{
+  padding-bottom: 51px;
+}
+.type-3{
+  padding-bottom: 30px;
+}
+.marg-top{
+  margin-top: 15px;
+  margin-bottom: 15px ;
+}
 @import "media";
 @import "tarasmain";
