@@ -178,6 +178,7 @@
 
 .practicum{
   background-color: #f8f8f8;
+  padding-bottom: 85px;
 }
 .core__content__item{
   h3{
@@ -200,3 +201,58 @@
     }
   }
 }
+
+
+
+
+.lasty{
+  padding-bottom: 90px;
+  h2{
+    color: #292727;
+  }
+}
+.lasty__content___item{
+  display: inline-block;
+  vertical-align: top;
+  width: 34%;
+  margin-left: 77px;
+  margin-top: 77px;
+}
+.lasty__content___item__left{
+  height: 60px;
+}
+.lasty__content___item__right{
+  p{
+    margin: 0;
+  }
+}
+@media only screen and (max-width : 1007px){
+  .lasty{
+    text-align: center;
+  }
+  .lasty__content___item{
+    display: block;
+    margin: 60px auto;
+    width: 100%;
+  }
+}
+@media only screen and (max-width : 500px){
+  .lasty{
+    h2 {
+      font-size: 24px;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
