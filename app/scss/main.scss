@@ -61,6 +61,9 @@
 }
 .can-sell{
   background-color: #f8f8f8;
+  background-image: url("../img/4block-bg.png");
+  background-repeat: no-repeat;
+  background-position: 127px 126px;
 }
 .border-band-s{
   margin: 152px 14px 0 0;
@@ -85,9 +88,31 @@
 .red-line{
   width: 15px;
   height: 3px;
-  background-color: #e42a1f;
+  background-color: $color;
   display: inline-block;
+  vertical-align: top;
+  margin-top: 33px;
   margin-right: 24px;
   margin-bottom: 5px;
+}
+
+.all-pr{
+  margin-top: 84px;
+}
+.item-problems{
+  display: inline-block;
+  margin-left: 15px;
+  img{
+    display: inline-block;
+    vertical-align: top;
+  }
+  p{
+    display: inline-block;
+    margin: 0;
+    color: $color-text;
+    font-size: 24px;
+    line-height: 26px;
+    padding-left: 23px;
+  }
 }
 @import "media";
