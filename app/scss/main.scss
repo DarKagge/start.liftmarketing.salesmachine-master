@@ -227,6 +227,37 @@
 }
 .module-all{
   padding-top: 53px;
+  padding-bottom: 25px;
+}
+.item-module{
+  display: inline-block;
+  padding-bottom: 40px;
+  margin-left: 17px;
+  vertical-align: top;
+  width: 48%;
+  p{
+    font-weight: 700;
+    color: $color;
+    b{
+      color: $color-text;
+    }
+  }
+  ul{
+    list-style: none;
+    padding-left: 30px;
+    li{
+      position: relative;
+    }
+    li:before{
+      position: absolute;
+      left: -30px;
+      top: 10px;
+      width: 15px;
+      height: 1px;
+      content: "";
+      background-color: #c6c6c6;
+    }
+  }
 }
 @import "media";
 @import "tarasmain";
