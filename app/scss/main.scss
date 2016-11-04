@@ -7,6 +7,7 @@
   background-image: url("../img/2block-bg.png");
   background-repeat: no-repeat;
   background-position: 484px 97px;
+
 }
 .border-band-i{
   margin: 92px 0 0 27px;
@@ -56,6 +57,7 @@
   background-image: url("../img/review.jpg");
   background-repeat: no-repeat;
   background-position: center top;
+  background-size: cover;
 
 }
 .border-band-client{
@@ -174,5 +176,57 @@
   background-image: url("../img/review2.jpg");
   background-repeat: no-repeat;
   background-position: top;
+  background-size: cover;
+}
+.can-sell-i{
+  background-image: url("../img/7block-bg.png");
+  background-position: 99px 118px;
+}
+.right-m{
+  margin-right: -80px;
+  padding-bottom: 25px;
+}
+.client-message-bg3{
+  background-image: url("../img/review3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+.client-w{
+  float: left;
+}
+.client-video{
+  display: inline-block;
+  padding-left: 22px;
+  padding-bottom: 25px;
+}
+.client-message-bg4{
+  background-image: url("../img/review4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+.client-message-bg5{
+  background-image: url("../img/review5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+
+.client-message-bg6{
+  background-image: url("../img/review6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 -407px;
+}
+.client-message-bg7{
+  background-image: url("../img/review7.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+.module-all{
+  padding-top: 53px;
 }
 @import "media";
+@import "tarasmain";
