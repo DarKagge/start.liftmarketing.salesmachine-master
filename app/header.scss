@@ -173,20 +173,6 @@ header{
   .moonray-form-input-type-submit{
     display: inline-block;
   }
-  .moonray-form-input-type-submit button{
-    color: #ffffff;
-    background-color: #e42a1f;
-    display: inline-block;
-    text-align: center;
-    border: 2px solid $color;
-    transform: skewX(-17deg);
-    padding: 9px 36px;
-    margin-left: 2px;
-    span{
-      transform: skewX(17deg);
-      display: block;
-    }
-  }
   .opf-error__icon{
     transform: skewX(17deg);
     left: auto !important;
@@ -206,6 +192,23 @@ header{
     margin-right: auto;
   }
 }
+
+.submit-button{
+  color: #ffffff;
+  background-color: #e42a1f;
+  display: inline-block;
+  text-align: center;
+  border: 2px solid $color;
+  transform: skewX(-17deg);
+  padding: 9px 36px;
+  margin-left: 2px;
+  span{
+    transform: skewX(17deg);
+    display: block;
+  }
+}
+
+
 .head-inf{
   text-align: left;
 
@@ -221,6 +224,9 @@ header{
     color: #000000;
     font-size: 14px;
     letter-spacing: 1.2px;
+  }
+  @media (max-width: 890px){
+    padding-left: 69px;
   }
   @media(max-width: 734px){
     padding-left: 0;
