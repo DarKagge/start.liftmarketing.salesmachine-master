@@ -5,6 +5,8 @@ body{
   font-family: "ProximaNova";
   font-size: 18px;
   color: $color-text;
+  max-width: 1230px;
+  margin: 0 auto;
 }
 .inner{
   max-width: 1030px;
