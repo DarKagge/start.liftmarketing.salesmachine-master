@@ -49,9 +49,16 @@
     text-align: center;
   }
   .item-module{
+    margin-left: 0;
     width: 70%;
     li{
       padding-bottom: 15px;
+    }
+  }
+  .company{
+    text-align: center;
+    img{
+      width: 95%;
     }
   }
 }

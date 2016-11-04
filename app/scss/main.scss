@@ -263,15 +263,7 @@
     color: $color-text;
   }
 }
-.book{
-  h3{
-    color: $color;
-    font-size: 30px;
-  }
-  b{
-    font-size: 18px;
-    color: $color-text;
-  }
+.ll-list{
   li:before{
     position: absolute;
     left: -30px;
@@ -285,23 +277,52 @@
     padding-bottom: 15px;
     position: relative;
   }
+}
+.book{
+  padding-bottom: 25px;
+  h3{
+    color: $color;
+    font-size: 30px;
+  }
+  b{
+    font-size: 18px;
+    color: $color-text;
+  }
   form{
     margin-top: 70px;
     border: 2px solid #f4f4f4;
     text-align: center;
     img{
       padding-top: 25px;
+      width: 90%;
     }
     input{
       border: none;
     }
     input[type='text']{
+      &:focus{
+        outline: none;
+        border-bottom: 1px solid #000;
+      }
       display: inline-block;
+      color: $color-text;
       width: 68%;
       border-bottom: 1px solid #e6e6e6;
       margin-bottom: 20px;
     }
+    button{
+      margin-bottom: 20px;
+    }
   }
+}
+.company{
+  background-color: #f8f8f8;
+  img{
+    margin-top: 25px;
+  }
+}
+.pad-row{
+  margin-top: 40px;
 }
 @import "media";
 @import "tarasmain";
